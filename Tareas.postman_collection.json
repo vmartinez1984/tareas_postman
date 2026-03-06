@@ -1,0 +1,101 @@
+{
+  "info": {
+    "_postman_id": "814420c9-b6d9-48a8-bbec-2a4cff878c2f",
+    "name": "Tareas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "2660252"
+  },
+  "item": [
+    {
+      "name": "Tarea",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\": \"{{$randomAdjective}}\",\r\n    \"descripcion\": \"{{$randomNoun}}\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/tareas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "tareas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tareas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/tareas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "tareas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tarea",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/tareas/69aa2a7a6abee25b06c2a7a1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "tareas",
+            "69aa2a7a6abee25b06c2a7a1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Tarea Copy",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/tareas/69aa2a7a6abee25b06c2a7a1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "tareas",
+            "69aa2a7a6abee25b06c2a7a1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
