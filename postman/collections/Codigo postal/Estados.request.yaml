@@ -1,0 +1,8 @@
+$kind: http-request
+name: Estados
+url: https://utilidades.vmartinez84.xyz/api/CodigosPostales/Estados
+method: GET
+headers:
+  - key: accept
+    value: application/json
+order: 182270077660611
