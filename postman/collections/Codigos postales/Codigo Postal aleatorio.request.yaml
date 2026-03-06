@@ -1,0 +1,8 @@
+$kind: http-request
+name: Codigo Postal aleatorio
+url: https://utilidades.vmartinez84.xyz/api/CodigosPostales/Aleatorio
+method: GET
+headers:
+  - key: accept
+    value: application/json
+order: 1772828059567
